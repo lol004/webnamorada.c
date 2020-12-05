@@ -10,15 +10,14 @@ void print_ascii() {
  " WW WWW WW eeeee  bb   bb    NN  NNN aa  aaa mmm  mm  mm oo  oo rr     aa  aaa dd   dd aa  aaa ... cc     \n"
   "  WW   WW   eeeee bbbbbb     NN   NN  aaa aa mmm  mm  mm  oooo  rr      aaa aa  dddddd  aaa aa ...  ccccc \n\n");
 };
+// Ascii Art
 
 int main() {
-	char resp, inicio;
-	char cert='s';
 	char nome[40], gosto[40];
-	int web=0, cont=0,namoro;
+        // Variaveis
 
 	print_ascii();
-
+        // Printa o ascii
 
 	printf("Ola, sou sua nova web namorada. Qual e o seu nome?  ");
 	gets(nome);
